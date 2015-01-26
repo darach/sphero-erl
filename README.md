@@ -45,11 +45,14 @@ Firstly, configure your Sphero's bluetooth id and serial connection details:
 ```
 
 Most examples require no arguments
+
 ```
 $ ERL_LIBS=deps erl escript examples/breathe.erl
 $ ERL_LIBS=deps erl escript examples/accel.erl
 $ ERL_LIBS=deps erl escript examples/gyro.erl
 $ ERL_LIBS=deps erl escript examples/square.erl
+
+```
 
 The Orb Basic command can execute a script
 
