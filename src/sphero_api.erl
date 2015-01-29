@@ -22,7 +22,9 @@
 %%
 %% File: sphero_api.erl. Sphero API.
 %%
-%% --------------------------------------------------------------------module(sphero_api).
+%% -------------------------------------------------------------------
+
+-module(sphero_api).
 -behaviour(gen_fsm).
 
 -export([start_link/1]).
